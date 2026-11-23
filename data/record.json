@@ -1,0 +1,202 @@
+{
+  "cases": [
+    {
+      "frame": 11,
+      "contact_ids": [
+        "heel:3",
+        "toe:1"
+      ],
+      "mu": [
+        0.42,
+        0.7
+      ],
+      "basis_quarters": [
+        0,
+        0
+      ],
+      "diagonal": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          3,
+          2,
+          2
+        ]
+      ],
+      "coupling": [
+        [
+          0.3,
+          0,
+          0
+        ],
+        [
+          0,
+          0.25,
+          0
+        ],
+        [
+          0,
+          0,
+          0.25
+        ]
+      ],
+      "free_impulse": [
+        [
+          0.4,
+          2,
+          -0.4
+        ],
+        [
+          1,
+          0.8,
+          2.1
+        ]
+      ],
+      "force_limit": 1.85
+    },
+    {
+      "frame": 12,
+      "contact_ids": [
+        "toe:1",
+        "heel:3"
+      ],
+      "mu": [
+        0.16,
+        0.42
+      ],
+      "basis_quarters": [
+        1,
+        0
+      ],
+      "diagonal": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          3,
+          2,
+          2
+        ]
+      ],
+      "coupling": [
+        [
+          0.3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.25
+        ],
+        [
+          0,
+          0.25,
+          0
+        ]
+      ],
+      "free_impulse": [
+        [
+          1,
+          2.1,
+          -0.8
+        ],
+        [
+          0.4,
+          2,
+          -0.4
+        ]
+      ],
+      "force_limit": 1.6
+    },
+    {
+      "frame": 13,
+      "contact_ids": [
+        "toe:2",
+        "heel:3"
+      ],
+      "mu": [
+        0,
+        0.42
+      ],
+      "basis_quarters": [
+        1,
+        0
+      ],
+      "diagonal": [
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          3,
+          2,
+          2
+        ]
+      ],
+      "coupling": [
+        [
+          0.25,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.2
+        ],
+        [
+          0,
+          0.2,
+          0
+        ]
+      ],
+      "free_impulse": [
+        [
+          1,
+          -1,
+          0.8
+        ],
+        [
+          0.4,
+          2,
+          -0.4
+        ]
+      ],
+      "force_limit": 1.6
+    }
+  ],
+  "cotangent_world": [
+    [
+      1,
+      0,
+      2
+    ],
+    [
+      -1,
+      2,
+      0
+    ]
+  ],
+  "global_load_direction": [
+    1,
+    0,
+    0
+  ],
+  "scale": {
+    "contacts": 2800,
+    "block_degree": 5,
+    "scenes": 8,
+    "scratch_bytes": 16777216
+  },
+  "tolerance": {
+    "feasibility": 1e-07,
+    "optimality": 1e-06
+  }
+}
